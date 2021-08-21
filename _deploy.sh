@@ -1,3 +1,4 @@
+yarn build
 cp -r ./build/* ../igorpronin.github.io
 cd ../igorpronin.github.io || exit
 git checkout master

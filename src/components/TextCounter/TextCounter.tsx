@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import {TextField, Box} from '@material-ui/core';
-import Icon from './Icon';
 import {makeStyles} from '@material-ui/core/styles';
 import CountItem from "./CountItem";
 

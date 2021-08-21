@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter as Router, Route, NavLink, Switch} from 'react-router-dom';
+import {HashRouter as Router, Route, NavLink, Switch} from 'react-router-dom';
 import TextCounter from './components/TextCounter/TextCounter';
 import {createTheme, ThemeProvider} from '@material-ui/core';
 

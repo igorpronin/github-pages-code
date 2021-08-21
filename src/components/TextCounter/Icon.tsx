@@ -28,8 +28,8 @@ function Icon(props: IProps) {
   const classes = useStyles(mr);
   return (
     <Box className={classes.root}>
-      {icon === 'inst' && <img className={classes.logo} src={Instagram} />}
-      {icon === 'tg' && <img className={classes.logo} src={Telegram} />}
+      {icon === 'inst' && <img className={classes.logo} src={Instagram} alt="img" />}
+      {icon === 'tg' && <img className={classes.logo} src={Telegram} alt="img" />}
     </Box>
   );
 }
